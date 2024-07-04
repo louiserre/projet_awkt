@@ -1,0 +1,60 @@
+.animationMenuOpen{
+   animation-name:animatonMenuOpen;
+   animation-duration:200ms; /*500ms*/
+   animation-timing-function: linear;
+   animation-delay: 0s;
+   animation-iteration-count: 1;
+   animation-direction: normal;
+   animation-fill-mode: both;
+   animation-play-state: running;
+}
+@keyframes animatonMenuOpen{   
+   0% {transform: translateX(-350px);}      
+   100% {transform: translateX(0px); } 
+}
+.animationMenuClose{
+   animation-name:animatonMenuclose;
+   animation-duration:200ms; /*500ms*/
+   animation-timing-function:linear;
+   animation-delay: 0s;
+   animation-iteration-count:1;
+   animation-direction:normal;
+   animation-fill-mode:both;
+   animation-play-state:running;
+}
+@keyframes animatonMenuclose{   
+   0% {transform: translateX(0px);}          
+   100% {transform: translateX(-0px);}
+   /*100% {transform: translateX(-350px);}*/
+}
+
+
+.logo{
+    width: 140px;
+    height: 140px;
+}
+
+@media screen and (min-width:1px){
+    .logo{    
+        width: 100px;
+        height: 100px;
+    }                
+ }
+ 
+ @media screen and (min-width:567px){
+     .logo{    
+        width: 120px;
+        height: 120px;
+     }            
+  }
+  @media screen and (min-width:768px){
+    .logo{    
+       width: 140px;
+       height: 140px;
+    }            
+ }
+
+
+
+
+

@@ -1,0 +1,38 @@
+td,th{      
+   padding: 4px; /*10px*/
+}
+
+
+thead >tr:nth-child(odd) {background: #b29f82}
+tbody >tr:nth-child(even) {background: #b29f82}
+tbody >tr:nth-child(odd) {background: #FFF}
+
+
+
+.marginTopMain{
+    margin-top: 7.5em;
+}
+
+@media screen and (min-width:1px){    
+    .marginTopMain{       
+       padding: 3em 0;      
+    }            
+}
+
+@media screen and (min-width:576px){    
+    .marginTopMain{       
+       padding: 5em 0;      
+    }            
+ }
+
+ @media screen and (min-width:768px){    
+    .marginTopMain{       
+       padding: 7em 0;      
+    }            
+ }
+
+ 
+ 
+
+
+

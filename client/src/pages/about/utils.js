@@ -1,0 +1,1 @@
+/* fonction réutilisable dans les différent component du dossier*/

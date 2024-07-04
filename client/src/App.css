@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    Margin:0;
+    box-sizing: border-box;
+}
+/*html, body,#root,.app{
+    width: 100%;
+    height: 100%; 
+        
+}*/
+
+
+@font-face {
+    font-family: "Unica One";
+    src: url("assets/font/unicaOne/UnicaOne-Regular.ttf");
+}
+
+.bgColor{
+    background-color: #272829;
+}
+.fontUnicaOne{
+    font-family: 'Unica One', cursive;  
+}
+.bgColorb29f82{
+    background-color: #b29f82;
+}
+.colorBorderInput{
+
+    border: 1px solid #b29f82;
+}
+
+
+
+.marginTopMain{
+    margin-top: 7.5em;
+}
+
+@media screen and (min-width:1px){    
+    .marginTopMain{       
+       padding: 3em 0;      
+    }            
+}
+
+@media screen and (min-width:576px){    
+    .marginTopMain{       
+       padding: 5em 0;      
+    }            
+ }
+
+ @media screen and (min-width:768px){    
+    .marginTopMain{       
+       padding: 7em 0;      
+    }            
+ }
+
+
+ 
+ 

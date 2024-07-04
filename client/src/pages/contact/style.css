@@ -1,0 +1,35 @@
+.widthContainer{
+    width:  50%;
+}
+
+.borderContainerInformation{    
+    border-top:4px solid #b29f82;
+    border-left: 1px solid#808080;
+    border-right: 1px solid#808080;
+    border-bottom: 1px solid#808080;
+}
+
+.fontSize{
+font-size: 11px;
+}
+
+
+
+@media screen and (min-width:1px){    
+    .widthContainer{       
+        width: 85%;      
+    }            
+}
+
+@media screen and (min-width:576px){    
+    .widthContainer{       
+        width:  70%;     
+    }            
+ }
+
+ @media screen and (min-width:768px){    
+    .widthContainer{       
+        width:  50%;      
+    }            
+}
+
